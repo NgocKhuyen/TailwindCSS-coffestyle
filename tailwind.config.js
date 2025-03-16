@@ -1,6 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    content: ["./src/**/*.{html,js}"],
+    content: [
+        "./public/**/*.html",
+        "./src/**/*.{html,js}"],
   theme: {
     extend: {
         fontFamily: {
@@ -18,7 +20,6 @@ module.exports = {
         animation: {
             slideDown: 'slideDown 0.4s ease-in-out',
         }
-        
     },
   },
   plugins: [],
