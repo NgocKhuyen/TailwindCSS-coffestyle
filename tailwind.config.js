@@ -6,10 +6,15 @@ module.exports = {
   theme: {
     extend: {
         fontFamily: {
-            Karla: ['Karla', 'serif']
+            Karla: ['Karla', 'sans-serif']
         },
         colors: {
-            'light-coffee': '#c89F94'
+            'coffee': {
+                50: '#e8d6d0',
+                200: '#c89F94',
+                300: '#a25f4b',
+                400: '#743f2f'      
+            }
         },
         keyframes: {
             slideDown: {
